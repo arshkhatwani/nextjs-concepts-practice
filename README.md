@@ -1,5 +1,18 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Concepts to practice
+
+1. Routing and Navigation
+2. Metadata
+3. Styling (Tailwind CSS)
+4. `<Image />` tag
+5. Client vs Server components
+6. Server Actions
+7. Suspense and Streaming
+8. Caching
+9. Static and dynamic rendering
+10. Middleware
+
 ## Getting Started
 
 First, run the development server:
