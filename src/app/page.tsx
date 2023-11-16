@@ -1,8 +1,10 @@
+import Heading from "@/components/Heading";
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div>
-        <h1 className="text-4xl font-bold">Posts</h1>
+        <Heading>Posts</Heading>
       </div>
     </main>
   );
