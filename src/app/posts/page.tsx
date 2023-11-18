@@ -10,7 +10,7 @@ export default async function Posts() {
             <Heading className="text-center mb-8">Your Posts</Heading>
 
             {posts.map((post) => (
-                <PostCard key={post.id} {...post} />
+                <PostCard key={post.id} {...post} isClickable={true} />
             ))}
         </div>
     );
