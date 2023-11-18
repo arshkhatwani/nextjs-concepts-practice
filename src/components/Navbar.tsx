@@ -4,7 +4,8 @@ const linkClass = "text-xl text-white hover:text-blue-700";
 
 const navItems = [
     { path: "/", name: "Home" },
-    { path: "/posts", name: "Posts" },
+    { path: "/posts/all", name: "Posts" },
+    { path: "/posts", name: "Your Posts" },
     { path: "/posts/new", name: "New Post" },
 ];
 
