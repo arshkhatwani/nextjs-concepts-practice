@@ -18,3 +18,10 @@ export async function getPosts() {
     const posts = await prisma.post.findMany();
     return posts;
 }
+
+export async function getAllPosts() {
+    const API_URL = "https://dummyjson.com/posts";
+    const data = await fetch(API_URL);
+    const posts = await data.json();
+    return posts.posts;
+}
