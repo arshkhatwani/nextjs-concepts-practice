@@ -8,3 +8,8 @@ export async function savePost(formData: FormData) {
 
     await prisma.post.create({ data: { title, description } });
 }
+
+export async function getPosts() {
+    const posts = await prisma.post.findMany();
+    return posts;
+}
