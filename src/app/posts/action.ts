@@ -21,7 +21,11 @@ export async function getPosts() {
 
 export async function getAllPosts() {
     const API_URL = "https://dummyjson.com/posts";
-    const data = await fetch(API_URL);
+    const data = await fetch(API_URL, {
+        next: {
+            revalidate: 30, // will fetch again after 30 seconds
+        },
+    });
     const posts = await data.json();
     return posts.posts;
 }
