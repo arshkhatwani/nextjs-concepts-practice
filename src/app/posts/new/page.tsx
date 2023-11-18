@@ -1,5 +1,6 @@
 import Heading from "@/components/Heading";
 import { Metadata } from "next";
+import { savePost } from "../action";
 
 export const metadata: Metadata = {
     title: "New Post",
@@ -8,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function NewPost() {
     return (
-        <form className="w-5/6">
+        <form className="w-5/6" action={savePost}>
             <Heading>New Post</Heading>
 
             <div className="my-8 flex flex-col justify-center gap-6">
