@@ -2,16 +2,16 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Concepts to practice
 
-1. Routing and Navigation
-2. Metadata
-3. Styling (Tailwind CSS)
-4. `<Image />` tag
-5. Client vs Server components
-6. Server Actions
-7. Suspense and Streaming
-8. Caching
-9. Static and dynamic rendering
-10. Middleware
+1. [x] Routing and Navigation
+2. [x] Metadata
+3. [x] Styling (Tailwind CSS)
+4. [x] `<Image />` tag
+5. [x] Client vs Server components
+6. [x] Server Actions
+7. [x] Suspense and Streaming
+8. [x] Caching
+9. [x] Static and dynamic rendering
+10. [x] Middleware
 
 ## Getting Started
 
