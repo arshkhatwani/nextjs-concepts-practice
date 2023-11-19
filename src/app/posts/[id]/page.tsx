@@ -9,7 +9,6 @@ type Props = {
 export default async function Post({ params }: Props) {
     const { id } = params;
     const post = await getPost(id);
-    console.log(post);
 
     if (!post) {
         return (
